@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<!-- Introductory message -->
+	<category>
+	    <pattern>HI</pattern>
+	    <template>Hello, I am CareerBot, a chatbot designed by Dominick Green! I am here to assist graduating computer science students in finding a suitable career choice. Which one of the following options best describes you? <br/>
+	    1.) I am a problem-solver. I would take pride in providing software solutions to people in need. <br/> 2.) I am an observant person. I would like to monitor and secure hardware and software. <br/>
+	    3.) I am a cautious person. I would find enjoyment in monitoring and governing computer networks. <br/> 4.) I am a technical person. I would find enjoyment in developing firmware and hardware. <br/>
+	    5.) I am a math person. I would find enjoyment in designing and creating mathematical models out of data. <br/>
+	    Enter the number of your selection (1-5).
+	    </template>
+    </category>
+    
+    <!-- Conditional Logic Branch -->
+    
+    <!-- Software Developer -->
+    <category>
+        <pattern>1</pattern>
+        <template>
+            Based on your response, it seems like Software Developer may be a role that aligns with your interests. Would you like to learn more about this career role? (Yes/No). <br/> Software Developer.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>SOFTWARE DEVELOPER</that>
+        <template>
+            <link>
+                <text>Here's some additional information on becoming a Software Developer.</text>
+                <url>https://www.computerscience.org/careers/software-developer/</url>
+            </link> <br/>
+            Thanks for chatting with CareerBot! Type "Hi" to start another chat.
+        </template>
+    </category>
+    
+   <category>
+        <pattern>NO</pattern>
+        <that>SOFTWARE DEVELOPER</that>
+        <template>
+          No additional information for Software Developer requested. Thanks for chatting with CareerBot! Enter "Hi" to chat again.
+        </template>
+    </category>
+    
+    <!-- Cybersecurity Engineer -->
+    <category>
+        <pattern>2</pattern>
+        <template>
+            Based on your response, it seems like Cybersecurity Engineer may be a role that aligns with your interests. Would you like to learn more about this career role? (Yes/No). <br/> Cybersecurity Engineer.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>CYBERSECURITY ENGINEER</that>
+        <template>
+            <link>
+                <text>Here's some additional information on becoming a Cybersecurity Engineer.</text>
+                <url>https://www.comptia.org/en-us/blog/what-is-a-cybersecurity-engineer/</url>
+            </link> <br/>
+            Thanks for chatting with CareerBot! Type "Hi" to start another chat.
+        </template>
+    </category>
+    
+   <category>
+        <pattern>NO</pattern>
+        <that>CYBERSECURITY ENGINEER</that>
+        <template>
+          No additional information for Cybersecurity Engineer requested. Thanks for chatting with CareerBot! Enter "Hi" to chat again.
+        </template>
+    </category>
+    
+    <!-- Network Engineer -->
+    <category>
+        <pattern>3</pattern>
+        <template>
+            Based on your response, it seems like Network Engineer may be a role that aligns with your interests. Would you like to learn more about this career role? (Yes/No). <br/> Network Engineer.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>NETWORK ENGINEER</that>
+        <template>
+            <link>
+                <text>Here's some additional information on becoming a Network Engineer.</text>
+                <url>https://www.cisco.com/site/us/en/learn/training-certifications/tech-roles/network-engineer.html#tabs-9da71fbd27-item-1288c79d71-tab</url>
+            </link> <br/>
+            Thanks for chatting with CareerBot! Type "Hi" to start another chat.
+        </template>
+    </category>
+    
+   <category>
+        <pattern>NO</pattern>
+        <that>NETWORK ENGINEER</that>
+        <template>
+         No additional information for Network Engineer requested. Thanks for chatting with CareerBot! Enter "Hi" to chat again.
+        </template>
+    </category>
+    
+    <!-- Embedded Systems Engineer -->
+    <category>
+        <pattern>4</pattern>
+        <template>
+            Based on your response, it seems like Embedded Systems Engineer may be a role that aligns with your interests. Would you like to learn more about this career role? (Yes/No). <br/> Embedded Systems Engineer.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>EMBEDDED SYSTEMS ENGINEER</that>
+        <template>
+            <link>
+                <text>Here's some additional information on becoming an Embedded Systems Engineer.</text>
+                <url>https://www.elsys-design.com/en/embedded-system-engineer/</url>
+            </link> <br/>
+            Thanks for chatting with CareerBot! Type "Hi" to start another chat.
+        </template>
+    </category>
+    
+   <category>
+        <pattern>NO</pattern>
+        <that>EMBEDDED SYSTEMS ENGINEER</that>
+        <template>
+          No additional information for Embedded Systems Engineer requested. Thanks for chatting with CareerBot! Enter "Hi" to chat again.
+        </template>
+    </category>
+    
+    <!-- Machine Learning Engineer -->
+    <category>
+        <pattern>5</pattern>
+        <template>
+            Based on your response, it seems like Machine Learning Engineer may be a role that aligns with your interests. Would you like to learn more about this career role? (Yes/No). <br/> Machine Learning Engineer.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>MACHINE LEARNING ENGINEER</that>
+        <template>
+            <link>
+                <text>Here's some additional information on becoming a Machine Learning Engineer.</text>
+                <url>https://www.coursera.org/articles/what-is-machine-learning-engineer</url>
+            </link> <br/>
+            Thanks for chatting with CareerBot! Type "Hi" to start another chat.
+        </template>
+    </category>
+    
+   <category>
+        <pattern>NO</pattern>
+        <that>MACHINE LEARNING ENGINEER</that>
+        <template>
+          No additional information for Machine Learning Engineer requested. Thanks for chatting with CareerBot! Enter "Hi" to chat again.
+        </template>
+    </category>
+    
+    <!--Test Function -->
+    <category>
+        <pattern>WHAT WAS THAT</pattern>
+        <template>
+        THAT = "<that/>"
+        </template>
+    </category>
+    
+    <!--Student Information -->
+    <category>
+        <pattern>INFO</pattern>
+        <template>
+            Dominick Green <br/>
+            WGU C951 <br/>
+            Introduction to Artificial Intelligence
+        </template>
+    </category>
+
+</aiml>
