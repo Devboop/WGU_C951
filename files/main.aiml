@@ -5,7 +5,7 @@
 	<!-- Introductory message -->
 	<category>
 	    <pattern>HI</pattern>
-	    <template>Hello, I am CareerBot, a chatbot designed by Dominick Green! I am here to assist graduating computer science students in finding a suitable career choice. Which one of the following options best describes you? <br/>
+	    <template>Hello, I am CareerBot, a chatbot designed by DG! I am here to assist graduating computer science students in finding a suitable career choice. Which one of the following options best describes you? <br/>
 	    1.) I am a problem-solver. I would take pride in providing software solutions to people in need. <br/> 2.) I am an observant person. I would like to monitor and secure hardware and software. <br/>
 	    3.) I am a cautious person. I would find enjoyment in monitoring and governing computer networks. <br/> 4.) I am a technical person. I would find enjoyment in developing firmware and hardware. <br/>
 	    5.) I am a math person. I would find enjoyment in designing and creating mathematical models out of data. <br/>
@@ -163,14 +163,10 @@
         </template>
     </category>
     
-    <!--Student Information -->
-    <category>
-        <pattern>INFO</pattern>
-        <template>
-            Dominick Green <br/>
-            WGU C951 <br/>
-            Introduction to Artificial Intelligence
-        </template>
-    </category>
+    <!--Student Information
+        Dominick Green 
+        WGU C951 
+        Introduction to Artificial Intelligence -->
+        
 
 </aiml>
